@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 09, 2022 lúc 04:02 AM
+-- Thời gian đã tạo: Th1 09, 2022 lúc 05:45 AM
 -- Phiên bản máy phục vụ: 10.4.21-MariaDB
 -- Phiên bản PHP: 8.0.12
 
@@ -43,16 +43,14 @@ CREATE TABLE `docgia` (
 --
 
 INSERT INTO `docgia` (`madg`, `hovaten`, `gioitinh`, `namsinh`, `nghenghiep`, `ngaycapthe`, `ngayhethan`, `diachi`) VALUES
-(1, 'Nguyễn Văn Toàn', 'Nam', 2000, 'Sinh viên', '2022-01-01', '2023-01-01', 'Hoàng Mai - Hà Nội'),
-(2, 'Nguyễn Minh Huệ', 'Nữ', 1997, 'Sinh viên', '2022-01-03', '2022-01-03', 'Thanh Xuân - Hà Nội'),
-(3, 'Vũ Văn Thanh', 'Nam', 1995, 'Tự do', '2022-01-06', '2023-01-06', 'Hoàn Kiếm - Hà Nội'),
 (4, 'Nguyễn Thị Linh', 'Nữ', 1989, 'Giảng viên', '2022-01-03', '2023-01-03', 'Thanh Xuân - Hà Nội'),
 (5, 'Nguyễn Quang Hải', 'Nam', 1995, 'Cầu thủ', '2022-01-02', '2023-01-02', 'Hoàn Kiếm - Hà Nội'),
 (6, 'Nguyễn Thị Hoa', 'Nữ', 1997, 'Nhân viên', '2022-01-03', '2023-01-03', 'Thanh Xuân - Hà Nội'),
 (7, 'Đoàn Văn Hậu', 'Nam', 1995, 'Tự do', '2022-01-05', '2023-01-05', 'Thanh Trì - Hà Nội'),
 (8, 'Vũ Thi Lan', 'Nữ', 1989, 'Giáo viên', '2022-01-02', '2022-01-02', 'Thanh Trì - Hà Nội'),
 (9, 'Nguyễn Hoàng Đức', 'Nam', 1997, 'Cầu thủ', '2022-01-01', '2023-01-01', 'Cầu Giấy - Hà Nội'),
-(10, 'Đỗ Hùng Dũng', 'Nam', 1989, 'Giáo viên', '2022-01-03', '2023-01-03', 'Thanh Trì - Hà Nội');
+(10, 'Đỗ Hùng Dũng', 'Nam', 1989, 'Giáo viên', '2022-01-03', '2023-01-03', 'Thanh Trì - Hà Nội'),
+(12, 'Nguyễn Văn Bình', 'Nam', 2001, 'Sinh viên', '2022-01-05', '2023-01-05', 'Thanh Trì - Hà Nội');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -72,7 +70,7 @@ ALTER TABLE `docgia`
 -- AUTO_INCREMENT cho bảng `docgia`
 --
 ALTER TABLE `docgia`
-  MODIFY `madg` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `madg` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
